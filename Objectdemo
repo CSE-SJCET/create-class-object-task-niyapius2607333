@@ -1,0 +1,20 @@
+public class Student{
+    String name;
+    int rollNumber;
+    char grade;
+    
+public void displayDetails(){
+    System.out.println("The name of the student is:"+name);
+    System.out.println("The roll number of the student is :"+rollNumber);
+    System.out.println("The grade of the student is"+grade);
+}
+}
+public class Main{
+    public static void main (String[] args){
+        Student student =new Student();
+        student.name="NIYA PIUS";
+        student.rollNumber=58;
+        student.grade='A';
+        student.displayDetails();
+    } 
+}
